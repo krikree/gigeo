@@ -1,0 +1,28 @@
+/* COMPONENTS: BUTTONS
+========================================================================
+== */
+/* Base */
+.button {
+padding: 0.5rem;
+cursor: pointer;
+font-family: $montserrat;
+font-size: $medium;
+font-weight: $bold;
+}
+
+/* Button Scheme */
+.button_primary {
+	font-weight:$thin;
+	border: none;
+	color: $white;
+		&:hover {
+		background-color: $red;
+		}
+		&:focus {
+		background-color: $red;
+		}
+	}
+
+.red{ background-color: $red;}
+
+.paleblue{ background-color: $paleblue;}

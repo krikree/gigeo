@@ -1,0 +1,35 @@
+/* COMPONENTS: NAVIGATIONS
+========================================================================
+== */
+/* Base*/
+.navbar {
+	padding-left:1em;
+	  justify-content: space-between;
+	  a{ display: inline-block;
+		}
+	}
+
+.user-info {
+	display: flex;
+	align-items: center;
+	padding-left: 1em 0;
+	}
+
+.navbar__icon {
+	display: flex;
+	margin-left: 10px;
+	justify-content: flex-end;
+		i {
+		align-self: center;
+		font-size: 1.2em;
+		}
+	}
+
+.navbar-nav {
+    flex-direction: row;
+    }
+
+ .navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.0);
+}
